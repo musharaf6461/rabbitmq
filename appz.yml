@@ -24,4 +24,4 @@ properties:
     RABBITMQ_DEFAULT_USER: admin
     RABBITMQ_DEFAULT_PASS:
        vault: RABBITMQ_DEFAULT_PASS
-    revision : 4
+    revision : 5
