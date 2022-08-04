@@ -28,4 +28,4 @@ properties:
     RABBITMQ_WORKDIR: rabbit
     BASE_URL: https://minnaniju-dev-rabbitmq-3-9.038c839d.lowtouch.cloud/
     RABBITMQ_NODE: rabbit@rabbitmq-3
-    revision : 12
+    revision : 13
