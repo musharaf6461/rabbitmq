@@ -1,7 +1,7 @@
 app:
     name: rabbitmq
     code: RABBITMQ
-    notify: eachakala@ecloudcontrol
+    notify: mniju@ecloudcontrol.com
 build:
     version: 3.9
     env: DEV
@@ -9,7 +9,7 @@ build:
     output_files: output/*.zip
     image_template: rabbitmq-3.9
 deploy:
-    context: eeshaachakala1/DEV
+    context: minnaniju/DEV
     replicas: 1
     type: statefulset
     port:
