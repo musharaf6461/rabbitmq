@@ -26,6 +26,6 @@ properties:
     RABBITMQ_DEFAULT_PASS:
        vault: RABBITMQ_DEFAULT_PASS
     RABBITMQ_WORKDIR: webapps
-    BASE_URL: https://minnaniju-dev-rabbitmq-3-9.038c839d.lowtouch.cloud/
+    BASE_URL: http://localhost:15672/
     RABBITMQ_NODE: rabbit@rabbitmq-3
     revision : 17
