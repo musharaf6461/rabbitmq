@@ -29,4 +29,4 @@ properties:
     BASE_URL: http://localhost:15672
     RABBITMQ_NODE: rabbit@rabbitmq-3-9-0
     RABBITMQ_MNESIA_DIR: /appz/data/rabbitmq
-    revision : 19
+    revision : 20
