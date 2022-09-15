@@ -9,7 +9,7 @@ build:
     output_files: output/*.zip
     image_template: rabbitmq-3.9
 deploy:
-    context: musharaf6461/DEV
+    context: mushraf6461/DEV
     replicas: 1
     type: statefulset
     port:
