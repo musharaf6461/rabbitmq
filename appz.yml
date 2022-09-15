@@ -15,6 +15,7 @@ deploy:
     port:
     - 15672
     - 5672
+    - 15692
 volumes:
   - claim: rabbitmq-data
     mount: /appz/data
