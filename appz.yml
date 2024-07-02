@@ -3,13 +3,13 @@ app:
     code: RABBITMQ
     notify: mmushraf@ecloudcontrol.com
 build:
-    version: 3.9
+    version: 3.13
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: rabbitmq-3.9
+    image_template: rabbitmq-3.13
 deploy:
-    context: mushraf6461/DEV
+    context: appz-coder/DEV
     replicas: 1
     type: statefulset
     port:
