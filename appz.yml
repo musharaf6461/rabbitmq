@@ -3,7 +3,7 @@ app:
     code: RABBITMQ
     notify: mmushraf@ecloudcontrol.com
 build:
-    version: 3.13
+    version: 3.9
     env: DEV
     build_file: none
     output_files: output/*.zip
