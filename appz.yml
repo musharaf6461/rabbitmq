@@ -7,7 +7,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: rabbitmq-3.9
+    image_template: rabbitmq-3.13
 deploy:
     context: mushraf6461/DEV
     replicas: 1
